@@ -1,0 +1,14 @@
+## Patient Information
+Name: Not specified  
+Age: Not specified  
+Gender: Not specified  
+
+## Consultation Details
+The patient presented with multiple symptoms including abdominal pain, fever, and cough. Upon examination, the patient's vital signs were stable but showed signs of respiratory distress. Further tests were ordered to determine the underlying cause of the symptoms.
+
+## Medicine Prescribed
+1. **Antibiotics (Amoxicillin)** - Prescribed to treat a possible bacterial infection causing the fever and cough. Dosage instructions include taking the medication twice daily after meals for a week.
+2. **Pain Relief (Paracetamol)** - Prescribed to alleviate the abdominal pain. The patient is advised to take this medication as needed, following the recommended dosage.
+3. **Cough Syrup (Dextromethorphan)** - Given to address the persistent cough. The patient should take this syrup three times a day until the cough subsides.
+
+Please note that the above information is based on the provided text and may not accurately reflect a real patient scenario.
