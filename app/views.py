@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import AudioFiles , TextFiles , UploadedFiles , Doctor , DoctorText
+from .models import AudioFiles , TextFiles , UploadedFiles , Doctor , DoctorText ,DoctorInfo , DoctorInfoExtend , BloodDonation 
 import io
 import os       
 from django.shortcuts import render
@@ -161,6 +161,53 @@ Do you frequently experience intense mood swings or persistent feelings of sadne
             return render(request, 'app/emo.html', {'output': output , 'download_url' : text_instance.text_file.url})
     return render(request, 'app/emo.html', {})
 
+from django.conf import settings
+from django.core.mail import send_mail
+
+def search_donor(request):
+    if request.method == 'POST':
+        blood_group = request.POST.get('blood_group')
+        phone_number = request.POST.get('phone_number')
+        if blood_group and phone_number:
+            donors = BloodDonation.objects.filter(blood_group=blood_group)
+            if donors:
+                for donor in donors:
+                    send_mail(
+                        'Urgent Blood Donation Request',
+                        f'Phone Number: {phone_number}',
+                        settings.EMAIL_HOST_USER, 
+                        [donor.email],
+                        fail_silently=False,
+                    )
+                return render(request, 'app/search_donor.html', {'message': 'Email sent to all matching donors'})
+    return render(request, 'app/search_donor.html')
 
 
+
+
+
+def display_doctor(request):
+    doctors = DoctorInfo.objects.all()
+    context = {'doctors':doctors}
+    return render(request, 'app/doctor_list.html', context)
+
+def display_doctor_form(request, pk):
+    doctor = DoctorInfo.objects.get(id=pk)
+    if request.method == 'POST':
+        time = request.POST.get('time')
+        patient_name = request.POST.get('patient_name')
+        symptom = request.POST.get('symptom')
+        if time and patient_name:
+            doctor_info_extend = DoctorInfoExtend(doctor=doctor, patient=patient_name, time=time , symptom = symptom)
+            doctor_info_extend.save()
+        
+            return render(request, 'app/book_app.html', {'doctor':doctor, 'time':time, 'patient_name':patient_name , 'symptom':symptom})
+    return render(request, 'app/book_app.html', {'doctor':doctor})
+
+
+def display_doctor_inquiry(request, pk):
+    doctor = DoctorInfo.objects.get(id=pk)
+    inquiry = DoctorInfoExtend.objects.filter(doctor=doctor)
+    context = {'inquiries':inquiry, 'doctor':doctor}
+    return render(request, 'app/doctor_inquiry.html', context)
 

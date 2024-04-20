@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Inquiry</title>
+</head>
+<body>
+    {% for inquiry in inquiries %}
+        <h1>Doctor Inquiry for {{ doctor.doctor_name }}</h1>
+        <p>Patient Name : {{ inquiry.patient }}</p>
+        <p>Time : {{ inquiry.time }}</p>
+        <p>Symptom : {{ inquiry.symptom }}</p>
+    {% endfor %}
+</body>
+</html>
+
+
