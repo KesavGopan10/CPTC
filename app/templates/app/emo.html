@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emotional Health Assessment</title>
+</head>
+<body>
+
+
+<form id="emotionalAssessment" action="" method="post">
+    {% csrf_token %}
+  <label for="q1">1. How often do you feel overwhelmed by your emotions or find it difficult to control them?</label><br>
+  <input type="text" id="q1" name="n"><br><br>
+
+  <label for="q2">2. Have you experienced a significant change in your sleeping patterns, appetite, or energy levels recently?</label><br>
+  <input type="text" id="q2" name="n1"><br><br>
+
+  <label for="q3">3. Do you often feel hopeless, empty, or like life lacks meaning?</label><br>
+  <input type="text" id="q3" name="n2"><br><br>
+
+  <label for="q4">4. Have you noticed a decrease in your interest or pleasure in activities you once enjoyed?</label><br>
+  <input type="text" id="q4" name="n3"><br><br>
+
+  <label for="q5">5. Do you frequently experience intense mood swings or persistent feelings of sadness, anxiety, or irritability?</label><br>
+  <input type="text" id="q5" name="n4"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+{% if output %}
+<pre>{{ output }}</pre>
+<a href={{ download_url }} download>Download</a>
+{% endif %}
+</body>
+</html>

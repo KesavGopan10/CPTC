@@ -1,0 +1,20 @@
+Patient Report:
+
+- Name: WQ
+- Age: 45
+- Weight: 89 kg
+- Height: 162 cm
+
+Symptoms:
+1. Fever
+2. Headache
+
+Assessment:
+The patient, WQ, a 45-year-old individual with a weight of 89 kg and height of 162 cm, is presenting with symptoms of fever and headache. Fever is a common symptom of various infections or inflammatory conditions, while headaches can be caused by a variety of factors, including viral infections, stress, dehydration, or other medical conditions.
+
+Recommendation:
+I recommend that the patient, WQ, schedule an appointment with a healthcare provider for a thorough examination and proper diagnosis. Further evaluation may include blood tests, physical examination, and possibly imaging studies to determine the cause of the fever and headache. Treatment will depend on the underlying condition identified during the evaluation.
+
+Please ensure the patient remains hydrated, rests adequately, and takes any prescribed medications as directed by the healthcare provider. If the symptoms worsen or new symptoms develop, seek medical attention promptly.
+
+This report is based on the information provided and is not a substitute for professional medical advice.

@@ -14,3 +14,23 @@ class AudioFiles(models.Model):
 class TextFiles(models.Model):
     text_file = models.FileField(upload_to='text/', null=True, blank=True)
     uploaded_at = models.DateTimeField(auto_now_add=True)
+
+
+
+class UploadedFiles(models.Model):
+    file_upload = models.FileField(upload_to='documents/')
+
+
+
+
+class Doctor(models.Model):
+    dname = models.CharField(max_length=100 , default=" ")
+    department = models.CharField(max_length=100 , default= " ")
+    phno = models.CharField(max_length=12 , default= " ")
+
+
+
+
+class DoctorText(models.Model):
+    doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE , default=" ")
+    text_file = models.FileField(upload_to='text/', null=True, blank=True)

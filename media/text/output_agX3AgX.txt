@@ -1,0 +1,14 @@
+**Patient Report:**
+
+- **Name:** WQ
+- **Age:** 45
+- **Weight:** 89 kg
+- **Height:** 162 cm 
+
+**Symptoms:**
+The patient presents with a fever.
+
+**Assessment:**
+The patient is a 45-year-old individual with a weight of 89 kg and a height of 162 cm. The primary presenting symptom is fever. Further evaluation and diagnostic testing may be required to determine the underlying cause of the fever and to provide appropriate treatment.
+
+Please feel free to reach out if you have any further questions or concerns.

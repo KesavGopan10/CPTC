@@ -1,0 +1,23 @@
+Patient report:
+
+**Patient Details:**
+Name: Kasho Vavani  
+Age: Not specified  
+Gender: Male  
+DOB: Not specified  
+
+**Consultation Details:**
+The patient presents with symptoms of fatigue and weakness. Upon examination, it was noted that the patient has high blood pressure and elevated cholesterol levels. Further investigation revealed that the patient has a family history of heart disease.
+
+**Medication Details:**
+1. **Prescription 1:**
+   - Name: Losartan
+   - Dosage: 50mg once daily
+   - Instructions: Take with food
+   
+2. **Prescription 2:**
+   - Name: Atorvastatin
+   - Dosage: 20mg once daily
+   - Instructions: Take at bedtime
+
+Please follow the prescribed medications and lifestyle recommendations provided by your healthcare provider.

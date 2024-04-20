@@ -1,0 +1,19 @@
+Patient Report:
+- Name: WQ
+- Age: 45
+- Weight: 89 kg
+- Height: 162 cm
+- Symptoms: Fever, Headache
+
+Based on the symptoms provided, it is possible that the patient is suffering from a viral infection or flu. However, further examination is recommended to determine the exact cause of the fever and headache.
+
+Recommended Doctor:
+Dr. John Doe
+Specialty: Internal Medicine
+Location: Clinic A
+
+Dr. Jane Smith
+Specialty: Family Medicine
+Location: Clinic B
+
+You can choose to visit either Dr. John Doe or Dr. Jane Smith for further evaluation and treatment of your symptoms.

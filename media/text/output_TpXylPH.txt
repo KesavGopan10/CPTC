@@ -1,0 +1,20 @@
+**Patient Information:**
+- **Name:** WQ
+- **Age:** 45
+- **Weight:** 89 kg
+- **Height:** 162 cm
+
+**Symptoms:**
+- Fever
+- Headache
+
+**Assessment:**
+Based on the symptoms described, it is likely that the patient is suffering from a viral infection or flu. Fever and headache are common symptoms of these conditions. It is important to monitor the patient's temperature and ensure they stay hydrated. It would be advisable for the patient to rest and take over-the-counter medications to help with the symptoms.
+
+**Recommendations:**
+1. Get plenty of rest.
+2. Drink fluids to stay hydrated.
+3. Take over-the-counter medications like acetaminophen to reduce fever and alleviate headache.
+4. If symptoms persist or worsen, seek medical attention for further evaluation and treatment.
+
+Please follow up with your healthcare provider if there is no improvement or if additional symptoms develop.

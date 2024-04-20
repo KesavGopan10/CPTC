@@ -1,0 +1,15 @@
+**Medical Report**
+- **Patient Name:** WQ
+- **Age:** 45
+- **Weight:** 89 kg
+- **Height:** 162 cm
+
+**Symptoms:**
+- Fever
+- Headache
+
+Based on the symptoms presented, the patient WQ is likely suffering from a viral infection causing the fever and headache. It is important to monitor the fever, ensure adequate rest, and maintain hydration. Over-the-counter medications may be used to manage symptoms, but if the fever persists or worsens, a medical consultation is advised.
+
+**Recommended Doctor:** Doctor object (1)
+
+It is recommended that WQ schedule an appointment with Doctor object (1) for accurate diagnosis and appropriate treatment.

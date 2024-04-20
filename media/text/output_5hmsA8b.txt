@@ -1,0 +1,22 @@
+--- Medical Report ---
+
+Patient Name: WQ
+Age: 45
+Weight: 89 kg
+Height: 162 cm
+
+Symptoms:
+1. Fever
+2. Headache
+
+Assessment:
+The patient, WQ, a 45-year-old female with a weight of 89 kg and a height of 162 cm, presents with symptoms of fever and headache. These symptoms could be indicative of an underlying infection or inflammatory condition.
+
+Plan:
+1. Conduct a physical examination to further assess the patient's symptoms.
+2. Consider ordering blood tests to check for any signs of infection or inflammation.
+3. Prescribe over-the-counter medications to manage fever and headache.
+4. Advise the patient to rest, stay hydrated, and monitor their symptoms closely.
+5. Follow up with the patient in a few days to evaluate the response to treatment and determine the need for further investigations or interventions.
+
+Please feel free to contact us if there are any concerns or if the symptoms worsen.

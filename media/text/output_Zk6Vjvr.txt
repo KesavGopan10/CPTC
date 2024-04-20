@@ -1,0 +1,15 @@
+Patient Information:
+- Name: WQ
+- Age: 45
+- Weight: 89 kg
+- Height: 162 cm
+
+Symptoms:
+- Fever
+- Headache
+
+Assessment:
+The 45-year-old patient, WQ, presents with a fever and headache.
+
+Recommendations:
+Based on the symptoms presented, it is essential for the patient to rest, stay hydrated, and monitor their fever. Over-the-counter pain relief medication may be taken for the headache, following appropriate dosage instructions. If the symptoms persist or worsen, it is advisable for the patient to seek medical attention for further evaluation and treatment.

@@ -1,0 +1,22 @@
+Patient name: WQ
+Age: 45
+Weight: 89 kg
+Height: 162 cm
+
+Symptoms:
+1. Fever
+2. Headache
+
+Assessment:
+- The patient presents with symptoms of fever and headache. These symptoms can be indicative of a viral infection, the flu, or even a possible bacterial infection. It is essential to further evaluate the patient to determine the root cause of these symptoms.
+
+Plan:
+1. Conduct a physical examination to assess the patient's vital signs and overall health.
+2. Perform necessary laboratory tests such as blood work to check for infection markers or other abnormalities.
+3. Provide symptomatic relief for fever and headache through medication as necessary.
+4. If needed, consider further imaging studies or consultations with appropriate specialists based on the evaluation results.
+
+Follow-up:
+Schedule a follow-up appointment to monitor the patient's progress and adjust the treatment plan as needed. Encourage rest, hydration, and proper nutrition for a speedy recovery.
+
+Please feel free to contact us if there are any concerns or if the symptoms worsen.

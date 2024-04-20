@@ -1,0 +1,13 @@
+**Medical Report**
+
+- **Name:** WQ
+- **Age:** 45
+- **Weight:** 89 kg
+- **Height:** 162 cm
+
+**Symptoms:**
+1. Fever
+2. Headache
+
+**Summary:**
+WQ, a 45-year-old patient, presents with symptoms of fever and headache. Further evaluation and diagnostic tests are recommended to determine the underlying cause of these symptoms. Please follow up with a healthcare provider for proper diagnosis and management.

@@ -1,0 +1,21 @@
+**Patient Report**
+
+- **Name:** WQ
+- **Age:** 45
+- **Weight:** 89 kg
+- **Height:** 162 cm
+
+**Symptoms:**
+1. Fever
+2. Headache
+
+**Assessment:**
+Based on the symptoms presented, the patient may be suffering from a viral infection or flu. Further evaluation and testing may be required to confirm the diagnosis.
+
+**Recommendations:**
+1. Get plenty of rest.
+2. Stay hydrated by drinking fluids.
+3. Take over-the-counter medication as needed for fever and headache.
+4. If symptoms persist or worsen, seek medical attention for further evaluation and treatment.
+
+It is important to monitor the symptoms closely and follow the recommendations provided.

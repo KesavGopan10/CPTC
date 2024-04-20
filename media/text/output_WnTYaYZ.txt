@@ -1,0 +1,36 @@
+**Brooke Radiology Associates Medical Report**
+
+- **Patient Information**:
+  - Name: Ronal Barry Norman Alkenbrack
+  - Age: 42 years
+  - Date of Birth: August 5, 1981
+  - Medical Record Number (MRN): 654985BRK
+
+- **Referring Physician**:
+  - Dr. Alex Weinberg
+  - TLC Medical Centre - Burnaby
+  - Address: 250 - 7155 Kingsway, Burnaby, BC V5E 0A6
+  - Phone: (778)388-9110
+
+- **Examination Details**:
+  - Examination Date: February 2, 2024
+  - Exam Number: KX24-005487
+  - Location: Kingsway
+  - Type of Exam: Small Parts Ultrasound - Right Upper Back
+
+- **Comparison**:
+  - No previous imaging studies available for comparison
+
+- **Findings**:
+  - The ultrasound examination focused on the area of concern in the right upper back.
+  - A potential subcutaneous structure measuring 2.8 x 0.4 x 1.7 cm was identified with some striations.
+  - No vascularity was observed around the structure.
+  - The appearance is consistent with a possible lipoma, which is a benign fatty tumor.
+  - Clinical follow-up is recommended to further evaluate and manage the identified structure.
+
+- **Reported By**:
+  - Dr. John Bining
+  - Reporting Date: February 2, 2024
+  - Report Electronically Signed by Dr. John Bining on February 2, 2024 at 12:07 PM
+
+This report summarizes the findings of a small parts ultrasound of the right upper back, indicating a potential lipoma. It is important for the patient to follow up with their healthcare provider for further evaluation and management based on these findings.

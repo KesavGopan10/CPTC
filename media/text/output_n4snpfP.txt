@@ -1,0 +1,13 @@
+**Patient Report:**
+
+- **Name:** WQ
+- **Age:** 45
+- **Weight:** 89 kg
+- **Height:** 162 cm
+- **Symptoms:** Fever, Headache
+
+**Diagnosis:**
+Based on the symptoms provided, it is likely that the patient is suffering from a viral or bacterial infection causing the fever and headache.
+
+**Recommendation:**
+I recommend that the patient consults with **Doctor (1)** for further evaluation and treatment.

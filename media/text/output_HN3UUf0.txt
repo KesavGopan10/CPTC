@@ -1,0 +1,16 @@
+Patient Name: WQ
+Age: 45
+Weight: 89 kg
+Height: 162 cm
+
+Symptoms:
+1. Fever
+2. Headache
+
+Assessment:
+Based on the symptoms reported by the patient, WQ appears to be experiencing a fever and headache. The combination of these symptoms could indicate a variety of underlying issues, ranging from a common viral infection to a more serious condition.
+
+Recommendation:
+It is important for WQ to schedule a consultation with a healthcare provider for a thorough evaluation and proper diagnosis. The healthcare provider may conduct a physical examination, review the patient's medical history, and possibly order additional tests to determine the cause of the fever and headache. Treatment options will depend on the underlying condition identified.
+
+Please advise the patient to monitor their symptoms closely and seek medical attention promptly.

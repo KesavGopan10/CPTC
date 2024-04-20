@@ -1,0 +1,17 @@
+**Patient Report:**
+
+- **Name:** WQ
+- **Age:** 45
+- **Weight:** 89 kg
+- **Height:** 162 cm
+
+**Symptoms:**
+- Fever
+- Headache
+
+**Recommendation:**
+Based on the symptoms presented, I suggest that Patient WQ consult with a doctor. The following doctors are available for consultation:
+1. Dr. Smith
+2. Dr. Johnson
+
+It is important to seek medical advice for proper diagnosis and treatment.

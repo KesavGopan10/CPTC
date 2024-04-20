@@ -1,0 +1,15 @@
+**Patient Report:**
+
+- **Name:** WQ
+- **Age:** 45
+- **Weight:** 89 kg
+- **Height:** 162 cm
+- **Symptoms:** Fever, Headache
+
+**Diagnosis:**
+Based on the symptoms reported, the patient is most likely experiencing a viral fever with associated headache. It is advisable for the patient to seek medical attention and follow-up with a healthcare provider.
+
+**Recommended Doctor:**
+I recommend scheduling an appointment with: Dr. John Smith
+
+
