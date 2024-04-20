@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Page</title>
+
+        <style>
+            body {
+                background-image: url("bg.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .login-container {
+                max-width: 400px;
+                padding: 40px;
+                background-color: rgba(169, 200, 208, 0.3);
+                border-radius: 16px;
+                backdrop-filter: blur(10px);
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            }
+            .login-container h2 {
+                text-align: center;
+                color: #333;
+                margin-bottom: 30px;
+            }
+            .form-control {
+                background-color: rgba(255, 255, 255, 0.9);
+                border: none;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .form-control:focus {
+                background-color: rgba(255, 255, 255, 1);
+                box-shadow: none;
+            }
+            .btn-primary {
+                background-color: #4caf50;
+                border: none;
+                border-radius: 8px;
+                padding: 10px 20px;
+            }
+            .btn-primary:hover {
+                background-color: #45a049;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <h3 class="d-inline">Register as</h3>
+                    <div class="d-flex align-items-center mt-3">
+                        <div class="pe-3">
+                            <h5 class="">Doctor</h5>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                role="switch"
+                                id="toggle"
+                            />
+                        </div>
+                        <div class="px-3">
+                            <h5>Client</h5>
+                        </div>
+                    </div>
+
+                    <div class="login-container mt-3" id="doctor_login">
+                        <h2>Doctor Registration</h2>
+                        <form>
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    placeholder="Name"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="username"
+                                    placeholder="Enter Username"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="password"
+                                    class="form-control"
+                                    id="password"
+                                    placeholder="Password"
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <input
+                                    type="number"
+                                    class="form-control"
+                                    id="phone"
+                                    placeholder="Phone Number"
+                                />
+                            </div>
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary btn-block"
+                            >
+                                Register
+                            </button>
+                        </form>
+
+                        <div class="mt-3">
+                            <a href="login.html">Login</a>
+                        </div>
+                    </div>
+
+                    <div class="login-container mt-3" id="client_login">
+                        <h2>Client Registration</h2>
+                        <form>
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    placeholder="Name"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="username"
+                                    placeholder="Enter Username"
+                                />
+                            </div>
+                            <div class="form-group">
+                                <input
+                                    type="password"
+                                    class="form-control"
+                                    id="password"
+                                    placeholder="Password"
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <input
+                                    type="number"
+                                    class="form-control"
+                                    id="phone"
+                                    placeholder="Phone Number"
+                                />
+                            </div>
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary btn-block"
+                            >
+                                Register
+                            </button>
+
+                            <div class="mt-3">
+                                <a href="login.html">Login</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+    <script>
+        const btn = document.getElementById("toggle");
+        var doc_div = document.getElementById("doctor_login");
+        var client_div = document.getElementById("client_login");
+        client_div.style.display = "none";
+
+        btn.addEventListener("click", () => {
+            if (!btn.checked) {
+                doc_div.style.display = "block";
+                client_div.style.display = "none";
+            } else {
+                doc_div.style.display = "none";
+                client_div.style.display = "block";
+            }
+        });
+    </script>
+</html>
