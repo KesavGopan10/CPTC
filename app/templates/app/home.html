@@ -27,6 +27,8 @@
             place-items: center;
             padding-top: 150px; /* Adjusted padding top to accommodate the fixed header */
             align items: center;
+            size:20px;
+            color:green
         }
         header {
             position: fixed;
@@ -44,8 +46,17 @@
         }
         h1, nav {
             margin: 0;
-            color: #e15454;
-            max-width: 150px;
+            color: green;
+            {% comment %} max-width: 150px; {% endcomment %}
+            font-size: 20px;
+            font-family:Cascadia Code;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            cursor: url('airplane.png'), auto; /* Set the cursor to an airplane icon */
+
         }
         nav fieldset {
             margin-right: 10px;
@@ -582,10 +593,10 @@ header {
     z-index: 1;
     max-height: 150px;
 }
-
+{% comment %} 
 h1, nav {
     margin: 0;
-    color: #a85353;
+    color: #a85353; {% endcomment %}
 }
 
 nav fieldset {
@@ -635,7 +646,7 @@ int{
         {% endif %}
     </header>
 
-    <div class="main "><div class="int "><h2 class="mb--1 ">WeCare for  <h2 id="existing-text" class="d-inline" >  </h2> <p class="d-inline" style="opacity: 0.0;">a</p></h2></div>
+    <div class="main "><div class="int "><h1 class="mb--1 ">WeCare for  <h1 id="existing-text" class="d-inline" >  </h1> <p class="d-inline" style="opacity: 0.0;">a</p></h1></div>
 
        
         
@@ -904,7 +915,7 @@ int{
     </script>
 
     <script>
-        const textArray = ['Patients', 'Doctors', 'All'];
+        const textArray = ['Patients', 'Doctors','You' ,'All'];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
