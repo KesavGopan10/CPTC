@@ -179,7 +179,7 @@ def search_donor(request):
             if donors:
                 for donor in donors:
                     send_mail(
-                        'Urgent Blood Donation Request',
+                        f'{blood_group}  --  Urgent Blood Donation Request',
                         f'Phone Number: {phone_number}',
                         settings.EMAIL_HOST_USER, 
                         [donor.email],
