@@ -1,0 +1,42 @@
+Medical Report:
+
+Patient Information:
+- Name: Mladen Gojkovic
+- Age: 70 years
+- Date of Birth: September 24, 1953
+- Medical Record Number (MRN): 55620BRK
+- Address: Burnaby, BC V5E 0A6
+- Phone: (778)883-1955
+- Personal Health Number (PHN): 9146 847 437
+
+Exam Information:
+- Exam Date: November 10, 2023
+- Exam Location: Hastings
+- Exam Number: HX23-019117
+- Exam Type: ABDOMINAL ULTRASOUND
+
+Clinical History:
+The patient, a 70-year-old male with a history of right nephrectomy, presents for an abdominal ultrasound examination.
+
+Findings:
+1. Right Kidney: There is no residual or recurrent disease identified in the right renal fossa following the previous right nephrectomy.
+2. Left Kidney: Multiple left renal cysts are present, with the largest measuring 6.8 cm in the upper pole. The cysts contain avascular septations.
+3. Gallbladder: Previous cholecystectomy has been noted.
+4. Liver, Common Bile Duct (CBD), Spleen, Pancreas, Aorta, and Inferior Vena Cava (IVC): These structures appear unremarkable.
+5. Prostate Gland: The prostate gland is enlarged, with a calculated volume of 75 mL.
+
+Impression:
+1. Previous right nephrectomy with no evidence of residua or recurrent disease in the right renal fossa.
+2. Multiple left renal cysts, with the largest cyst measuring 6.8 cm in the upper pole.
+3. Enlarged prostate gland with a volume of 75 mL.
+
+Reported by:
+Dr. Ian Wong
+
+Electronically Signed by:
+Dr. Ian Wong
+
+Date of Report:
+November 10, 2023
+
+This report indicates that the patient has a history of right nephrectomy with no current evidence of disease in that area. Multiple left renal cysts have been identified, as well as an enlarged prostate gland. Further evaluation and follow-up may be needed based on these findings.

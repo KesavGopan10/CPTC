@@ -1,0 +1,33 @@
+**Brooke Radiology Associates Report**
+
+- **Patient Information**:
+  - Name: Giber Rod
+  - Address: 4218 Hastings Street, Richmond, BC V7C3V3
+  - Date of Birth: August 4, 1958
+  - MRN: 347293BRK
+  - Phone: 604-273-7378 / 604-259-2665 / 604-278-9151
+  - Fax: 604-273-5861 / 604-239-5773 / 604-278-6315 / 604-435-1309
+
+- **Referring Physician**:
+  - Dr. Alex Weinberg
+
+- **Exam Details**:
+  - Exam Date: January 2, 2024
+  - Exam #: HX24-000002
+  - Location: Hastings
+  - Exam Type: Abdominal Ultrasound
+
+- **Findings**:
+  - The liver shows echogenicity consistent with mild fatty infiltration.
+  - Gallbladder, common duct, pancreas, midline great vessels, spleen, and bilateral kidneys appear normal.
+  - No free fluid identified.
+
+- **Impression**:
+  - Mild hepatic steatosis (fatty liver).
+  - No evidence of cholelithiasis (gallstones).
+
+- **Reported By**:
+  - Dr. Glat Grunau
+  - Electronically Signed: January 2, 2024, 10:57 AM
+
+This report indicates that the patient, Giber Rod, has mild fatty infiltration in the liver (hepatic steatosis) but no gallstones were detected. The rest of the abdominal organs appear normal. It is recommended that the findings be discussed with the referring physician for further evaluation or management if necessary.

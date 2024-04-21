@@ -1,0 +1,19 @@
+Medical Report
+
+Patient Name: Olha Akhtarieieva
+Date of Birth: March 25, 1998
+Age: 25 years
+Medical Record Number (MRN): 654720BRK
+Exam Date: January 31, 2024
+Exam Location: Kingsway CHEST PA IMMIGRATION
+
+Findings:
+- Lungs: Clear
+- Cardiomediastinal silhouette: Normal
+
+Reported By:
+Dr. John Bining
+
+The chest X-ray taken on January 31, 2024, at the TLC Medical Centre in Burnaby, BC, showed clear lungs and a normal cardiomediastinal silhouette. There were no abnormalities or areas of concern noted in the report. Dr. John Bining reviewed the results and electronically signed the report on the same day.
+
+Please let us know if you require any further information or assistance.

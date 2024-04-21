@@ -1,0 +1,20 @@
+To create a query that produces a list of employees who earn less than others, along with the higher earning employee, you can use the following SQL query:
+
+```sql
+SELECT e1.NAME AS LesserEarningEmployee, e2.NAME AS HigherEarningEmployee
+FROM EMPLOYEE e1, EMPLOYEE e2
+WHERE e1.SALARY < e2.SALARY
+ORDER BY e1.ID ASC, e2.SALARY ASC;
+```
+
+Explanation of the query:
+
+1. `SELECT e1.NAME AS LesserEarningEmployee, e2.NAME AS HigherEarningEmployee`: This part of the query selects the columns for the output, showing the name of the employee who earns less (e1) and the name of the higher earning employee (e2).
+
+2. `FROM EMPLOYEE e1, EMPLOYEE e2`: This part specifies the tables you are querying from and assigns aliases to them (e1, e2) to differentiate between the lesser and higher earning employees.
+
+3. `WHERE e1.SALARY < e2.SALARY`: This condition filters the query to only include pairs of employees where the salary of the first employee (e1) is less than the salary of the second employee (e2).
+
+4. `ORDER BY e1.ID ASC, e2.SALARY ASC`: This clause orders the output first by the ID of the lesser earning employee in ascending order and then by the salary of the higher earning employee in ascending order.
+
+The resulting output will be a list of combinations of employees where the first column contains the name of the employee earning less and the second column contains the name of the employee earning more, sorted as specified in the ORDER BY clause.

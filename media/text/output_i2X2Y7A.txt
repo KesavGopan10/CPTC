@@ -1,0 +1,35 @@
+**Patient Information:**
+- Name: Maria Adelia Rodrigues
+- Date of Birth: August 4, 1958
+- Age: 65 years
+- Medical Record Number (MRN): 347293BRK
+- Address: TLC Medical Centre, 250 - 7155 Kingsway, Burnaby, BC V5E 0A6
+- Phone: (604) 319-4323
+- Personal Health Number (PHN): 9086 471 251
+
+**Examination Details:**
+- Exam Date: January 2, 2024
+- Exam #: HX24-000002
+- Location: Hastings
+
+**Radiology Report:**
+- **Procedure:** Abdominal Ultrasound
+- **Comparison:** Previous examination done on December 14, 2015.
+
+**Findings:**
+1. The liver appears echogenic, suggesting mild fatty infiltration.
+2. The gallbladder, common bile duct, pancreas, midline great vessels, spleen, and bilateral kidneys are all within normal limits.
+3. No free fluid was visualized in the abdomen.
+
+**Impression:**
+- Mild hepatic steatosis (fatty liver).
+- No evidence of cholelithiasis (gallstones).
+
+**Reporting Doctor:**
+- Dr. Gilat Grunau
+- Reported on: January 2, 2024, at 08:10 AM
+- Electronically signed on: January 2, 2024, at 10:57 AM
+
+---
+
+This report indicates that Maria Adelia Rodrigues, a 65-year-old female, underwent an abdominal ultrasound on January 2, 2024. The findings suggest mild fatty infiltration of the liver (hepatic steatosis), but no gallstones or other abnormalities were observed in the gallbladder, pancreas, or kidneys. Overall, the report shows normal findings apart from the mild hepatic steatosis. Further clinical correlation may be necessary based on these results.

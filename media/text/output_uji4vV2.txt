@@ -1,0 +1,35 @@
+**Patient Information**  
+- Name: Mladen Gojkovic  
+- Age: 70 years  
+- Date of Birth: September 24, 1953  
+- Medical Record Number (MRN): 55620BRK  
+- Address: TLC Medical Centre - Burnaby, 250-7155 Kingsway, Burnaby, BC V5E 0A6  
+- Phone Number: (778)883-1955  
+- Personal Health Number (PHN): 9146 847 437  
+
+**Exam Information**  
+- Exam Date: November 10, 2023  
+- Exam #: HX23-019117  
+- Type of Exam: Abdominal Ultrasound  
+- Location: Hastings  
+
+**Clinical History**  
+The patient has a history of previous right nephrectomy and cholecystectomy.  
+
+**Findings**  
+1. Previous right nephrectomy: No abnormal soft tissue nodules identified in the right renal fossa, indicating no residua or recurrent disease.
+2. Left renal cysts: Multiple left renal cysts noted, with the largest measuring 6.8 cm in the left renal upper pole. These cysts contain avascular septations.
+3. Cholecystectomy: Previous cholecystectomy noted.
+4. Liver, CBD, spleen, pancreas, aorta, IVC: Unremarkable findings in these structures.
+5. Prostate gland: Enlarged prostate gland with a calculated volume of 75 mL.
+
+**Impression**  
+1. Previous right nephrectomy without evidence of residua or recurrent disease.
+2. Presence of multiple left renal cysts, the largest being a 6.8 cm upper pole cyst with avascular septations.
+3. Unremarkable findings in the liver, CBD, spleen, pancreas, aorta, and IVC.
+4. Enlarged prostate gland.
+
+**Reporting Radiologist**  
+- Dr. Ian Wong Inc
+
+The report was electronically signed by Dr. Ian Wong Inc on November 10, 2023, at 10:07 am.

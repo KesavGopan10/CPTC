@@ -1,0 +1,22 @@
+Patient Name: WQ
+Age: 45 years
+Weight: 89 kg
+Height: 162 cm
+
+Subjective:
+The patient presents with complaints of fever and headache.
+
+Objective:
+- Temperature: TBC
+- Blood pressure: TBC
+- Heart rate: TBC
+
+Assessment:
+Based on the patient's symptoms of fever and headache, the likely diagnosis is a viral infection or flu.
+
+Plan:
+1. Recommend rest and hydration.
+2. Monitor temperature and take fever-reducing medication as needed.
+3. If symptoms persist or worsen, advise follow-up consultation with a healthcare provider for further evaluation and management.
+
+Please note that this report is based on the information provided and a physical examination would be necessary for a definitive diagnosis.

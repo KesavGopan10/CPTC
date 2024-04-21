@@ -1,0 +1,29 @@
+Medical Report:
+
+Patient Information:
+- Name: Olha Akhtarieieva
+- Age: 25 years (DOB: March 25, 1998)
+- Medical Record Number (MRN): 654720BRK
+- Address: TLC Medical Centre - Burnaby, 250 - 7155 Kingsway, Burnaby, BC V5E 0A6
+- Phone: (778) 808-4173, (604) 438-9991
+- Fax: (604) 438-9960
+
+Exam Information:
+- Exam Date: January 31, 2024
+- Exam Number: KX24-005113
+- Location: Kingsway CHEST PA IMMIGRATION
+- Exam Provider: Brooke Radiology Associates
+
+Findings:
+- Lungs: Clear
+- Cardiomediastinal silhouette: Normal
+
+Interpretation:
+The chest radiograph performed on January 31, 2024, for Olha Akhtarieieva shows clear lungs and a normal cardiomediastinal silhouette. There are no abnormal findings reported in this examination.
+
+Reporting Physician:
+- Dr. John Bining
+
+This report was electronically signed by Dr. John Bining on January 31, 2024, at 16:07.
+
+Please feel free to reach out if you require any further clarification or information.

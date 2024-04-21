@@ -1,0 +1,34 @@
+Medical Report:
+
+Patient Information:
+- Name: Mladen Gojkovic
+- Age: 70 years old (born on September 24, 1953)
+- Medical Record Number (MRN): 55620BRK
+- Address: TLC Medical Centre, 7155 Kingsway, Burnaby, BC V5E 0A6
+- Phone: (778) 883-1955
+- Personal Health Number (PHN): 9146 847 437
+
+Exam Information:
+- Exam Date: November 10, 2023
+- Exam # HX23-019117
+- Location: Hastings ABDOMINAL ULTRASOUND
+
+Findings:
+1. Previous right nephrectomy: The patient has had a previous surgical removal of the right kidney.
+2. No abnormal soft tissue nodules identified in the right renal fossa: There are no abnormal growths or nodules detected in the area where the right kidney used to be located.
+3. Multiple left renal cysts: The patient has multiple cysts in the left kidney, with the largest being a 6.8 cm cyst located in the upper pole of the left kidney. This cyst contains avascular septations.
+4. Previous cholecystectomy: The patient has had a previous surgical removal of the gallbladder.
+5. Normal findings in the liver, CBD (common bile duct), spleen, pancreas, aorta, and IVC (inferior vena cava).
+6. Enlarged prostate gland: The prostate gland is enlarged with a calculated volume of 75 mL.
+
+Impression:
+1. Previous right nephrectomy without any residual or recurrent disease identified.
+2. Presence of multiple left renal cysts, with the largest cyst measuring 6.8 cm.
+3. Enlarged prostate gland.
+
+Reported By:
+Dr. Ian Wong Inc on November 10, 2023 at 08:59
+Electronically Signed By:
+Dr. Ian Wong Inc on November 10, 2023 at 10:07
+
+Overall, the abdominal ultrasound report indicates the findings of previous surgeries, the presence of renal cysts in the left kidney, and an enlarged prostate gland. It is recommended to follow up with the healthcare provider for further evaluation and management.

@@ -63,6 +63,7 @@ class BloodDonation(models.Model):
 
 class DoctorInfo(models.Model):
     doctor_name = models.CharField(max_length=100)
+    do_id = models.IntegerField(default= 1)
 
 
 
@@ -78,12 +79,19 @@ class DoctorInfoExtend(models.Model):
 
 
 
+class BugReport(models.Model):
+    area = models.CharField(max_length=100 , default=" ")
+    title = models.CharField(max_length=100)
+    
 
 
 
 
 
 
+
+class Ticket(models.Model):
+    title = models.CharField(max_length=100)
 
 
 

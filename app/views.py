@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import AudioFiles , TextFiles , UploadedFiles , Doctor , DoctorText ,DoctorInfo , DoctorInfoExtend , BloodDonation 
+from .models import AudioFiles , TextFiles , UploadedFiles , Doctor , DoctorText ,DoctorInfo , DoctorInfoExtend , BloodDonation , BugReport  , Ticket
 import io
 import os       
 from django.shortcuts import render
@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from django.core.files.base import ContentFile
 from paddleocr import PaddleOCR,draw_ocr
+from django.contrib.auth.models import User
 # Paddleocr supports Chinese, English, French, German, Korean and Japanese.
 # You can set the parameter `lang` as `ch`, `en`, `fr`, `german`, `korean`, `japan`
 # to switch the language model in order.
@@ -22,7 +23,12 @@ client = OpenAI(
 )
 
 def home(request):
-    return render(request, 'app/home.html')
+    try:
+        n = request.user.first_name
+    except:
+        n = None
+    id = request.user.id
+    return render(request, 'app/home.html',{'n' : n , 'id' : id})
 
 
 
@@ -44,8 +50,8 @@ def transcribe_audio(request):
                 completion = client.chat.completions.create(
                     model="gpt-3.5-turbo",
                     messages=[
-                        {"role": "system", "content": "You are a report building assistant , skilled in creating  report with given text including 3 heading detail with content about patient , content of patient with detail abput the consultation and medicine with detail of medicine of patient in english language."},
-                        {"role": "user", "content": transcription}
+                        {"role": "system", "content": "You are a report building assistant , skilled in creating  report with given text including 3 heading detail with content about patient , content of patient with detail abput the consultation and medicine"},
+                        {"role": "user", "content": f"{transcription} genarate in english "}
                     ]
                 )
 
@@ -210,4 +216,117 @@ def display_doctor_inquiry(request, pk):
     inquiry = DoctorInfoExtend.objects.filter(doctor=doctor)
     context = {'inquiries':inquiry, 'doctor':doctor}
     return render(request, 'app/doctor_inquiry.html', context)
+
+def helbo(request):
+    if request.method == 'POST':
+        name = request.POST.get('name')
+        if name:
+            completion = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are a doctor assistant, skilled in explaining any problem and possible content  with details "},  
+                    {"role": "user", "content": f'chatbot - { name }'},
+                    
+                ]
+            )
+            output = completion.choices[0].message.content
+
+            
+            
+            
+            return render(request, 'app/helbo.html', {'output': output})
+    return render(request, 'app/helbo.html', {})
+
+from django.shortcuts import render, redirect
+from django.contrib.auth import authenticate, login , logout
+
+def user_login(request):
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            login(request, user)
+            return redirect('home')  # Redirect to home page or any other page after successful login
+    return render(request, 'app/login.html')
+
+
+
+def register(request):
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        category = request.POST.get('category')
+        
+        
+        if username and password:
+            user = User.objects.create_user(username=username, password=password , first_name = category)
+            user.save()
+            if category == "Doctor":
+                d_i = DoctorInfo(doctor_name=username , do_id = user.id)
+                d_i.save()
+            return redirect ( user_login )
+    else:
+        return render(request, 'app/register.html')
+    
+
+
+
+def logout_user(request):
+    """
+    Logout the user and redirect to the home page.
+
+    Args:
+        request (HttpRequest): The request object.
+
+    Returns:
+        HttpResponseRedirect: Redirects the user to the home page.
+    """
+    if request.user.is_authenticated:
+        logout(request)  # Logout the user
+    return redirect('home')  # Redirect to home page
+
+def emrgy(request):
+    if request.method == 'POST':
+        name = request.POST.get('name')
+        if name:
+            completion = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are a doctor assistant, skilled in explaining any problem and recommending solution related to health care emergrncy , if( not field of health crae emergency dont know)"},  
+                    {"role": "user", "content": f'chatbot - { name }'},
+                    
+                ]
+            )
+            output = completion.choices[0].message.content
+
+            
+            
+            
+            return render(request, 'app/emrgy.html', {'output': output})
+    return render(request, 'app/emrgy.html', {})
+
+
+def save_bug_report(request):
+    if request.method == 'POST':
+        title = request.POST.get('title')
+        if title:
+            bug_report = BugReport(title=title)
+            bug_report.save()
+            return redirect('home')
+        
+    return redirect('home')
+
+
+def save_bug_report_with_detail(request):
+    projects = Ticket.objects.all()
+    if request.method == 'POST':
+        title = request.POST.get('title')
+        description = request.POST.get('area')
+        if title and description:
+            bug_report = BugReport(title=title, area=description)
+            bug_report.save()
+            return redirect( save_bug_report_with_detail )
+        
+    return render (request, 'app/save_bug_report_with_detail.html' , {'projects':projects})
 

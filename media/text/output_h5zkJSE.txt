@@ -1,0 +1,28 @@
+Medical Report:
+Patient Name: Adarsh Ajay
+Program: Diploma in Computer Engineering(CT)
+Block: 5
+Class: A
+Semester: 5
+Semester Registration Status: Current
+Course Details:
+1. Course Code: 6000
+   Course Name: Activity points
+   Type: Core
+2. Course Code: 6137
+   Course Name: Computer Network Engineering Lab
+   Type: Core
+3. Course Code: 6007
+   Course Name: Internship
+   Type: Core
+4. Course Code: 6138
+   Course Name: Smart Device Programming Lab
+   Type: Core
+5. Course Code: 6002
+   Course Name: Indian Constitution
+   Type: Core
+6. Course Code: 6001
+   Course Name: Entrepreneurship and Startup
+   Type: Core
+
+This medical report does not contain any health-related information, as it appears to be a course registration report for a student in the field of Computer Engineering. If you require assistance with a medical report or have any health-related questions, please feel free to ask.
